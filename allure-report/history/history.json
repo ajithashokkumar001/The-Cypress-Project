@@ -1,0 +1,156 @@
+{
+  "74d9890c813753e00e87204a9a5fc20b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d49ab7f9357f8c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671296951853,
+        "stop" : 1671296956262,
+        "duration" : 4409
+      }
+    } ]
+  },
+  "05d7641c22d1605216939ed0d16cadd4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b4c0de07edb21206",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671296433837,
+        "stop" : 1671296436021,
+        "duration" : 2184
+      }
+    } ]
+  },
+  "6741a05f4bc6e5b65f504c4f3df388a1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "318d111e74cdb584",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: The command was expected to run against origin `https://opensource-demo.orangehrmlive.com` but the application is at origin `https://www.google.com`.\n\nThis commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.\n\nUsing `cy.origin()` to wrap the commands run on `https://www.google.com` will likely fix this issue.\n\n`cy.origin('https://www.google.com', () => {`\n`  <commands targeting https://www.google.com go here>`\n`})`\n\nhttps://on.cypress.io/cy-visit-succeeded-but-commands-fail",
+      "time" : {
+        "start" : 1671296461206,
+        "stop" : 1671296475690,
+        "duration" : 14484
+      }
+    } ]
+  },
+  "c82e689c4618c86542e7d20d3fcefcdf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d2b489e3aad5d15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671296425968,
+        "stop" : 1671296433737,
+        "duration" : 7769
+      }
+    } ]
+  },
+  "99e8ebaa5ad2fafe4e141574f6b4a73f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45a71f291ce1782c",
+      "status" : "failed",
+      "statusDetails" : "cy.get(...).attachFile is not a function",
+      "time" : {
+        "start" : 1671296353308,
+        "stop" : 1671296363682,
+        "duration" : 10374
+      }
+    } ]
+  },
+  "06a310319b3673ecfd11fef572f16892" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff3d6ec67d91cd5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671296947903,
+        "stop" : 1671296951823,
+        "duration" : 3920
+      }
+    } ]
+  },
+  "4903a80e49fa578825d5927be03feeff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b57629ca4894319a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671296436449,
+        "stop" : 1671296438602,
+        "duration" : 2153
+      }
+    } ]
+  },
+  "b297f73aec86a3768a607679711556b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29b179626f5165ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671296938024,
+        "stop" : 1671296947848,
+        "duration" : 9824
+      }
+    } ]
+  }
+}

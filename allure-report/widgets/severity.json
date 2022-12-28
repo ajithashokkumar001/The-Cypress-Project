@@ -1,0 +1,81 @@
+[ {
+  "uid" : "ff3d6ec67d91cd5a",
+  "name" : "Login Success Case",
+  "time" : {
+    "start" : 1671296947903,
+    "stop" : 1671296951823,
+    "duration" : 3920
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d2b489e3aad5d15",
+  "name" : "Read files using Fixture",
+  "time" : {
+    "start" : 1671296425968,
+    "stop" : 1671296433737,
+    "duration" : 7769
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "318d111e74cdb584",
+  "name" : "Google Search",
+  "time" : {
+    "start" : 1671296461206,
+    "stop" : 1671296475690,
+    "duration" : 14484
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "29b179626f5165ab",
+  "name" : "Login Success using Fixture",
+  "time" : {
+    "start" : 1671296938024,
+    "stop" : 1671296947848,
+    "duration" : 9824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4c0de07edb21206",
+  "name" : "Read files using readFile()",
+  "time" : {
+    "start" : 1671296433837,
+    "stop" : 1671296436021,
+    "duration" : 2184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b57629ca4894319a",
+  "name" : "Write to a file",
+  "time" : {
+    "start" : 1671296436449,
+    "stop" : 1671296438602,
+    "duration" : 2153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d49ab7f9357f8c4",
+  "name" : "Login Invalid Case",
+  "time" : {
+    "start" : 1671296951853,
+    "stop" : 1671296956262,
+    "duration" : 4409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45a71f291ce1782c",
+  "name" : "File Upload",
+  "time" : {
+    "start" : 1671296353308,
+    "stop" : 1671296363682,
+    "duration" : 10374
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

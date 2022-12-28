@@ -1,0 +1,85 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-12-17T15:12:19.088Z",
+    "end": "2022-12-17T15:12:39.235Z",
+    "duration": 20147,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9435f0ce-2453-49b3-a70e-99574d5f83ae",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test1.cy.js",
+      "file": "cypress\\e2e\\test1.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Google Search",
+          "fullTitle": "Google Search",
+          "timedOut": null,
+          "duration": 14258,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('https://google.com');\ncy.get('#L2AGLb > .QS5gu').click();\ncy.get('.gLFyf').type('Ajith Ashokkumar {Enter}'); //cy.contains('Google Search').click()",
+          "err": {
+            "message": "CypressError: Timed out retrying after 4000ms: The command was expected to run against origin `https://opensource-demo.orangehrmlive.com` but the application is at origin `https://www.google.com`.\n\nThis commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.\n\nUsing `cy.origin()` to wrap the commands run on `https://www.google.com` will likely fix this issue.\n\n`cy.origin('https://www.google.com', () => {`\n`  <commands targeting https://www.google.com go here>`\n`})`\n\nhttps://on.cypress.io/cy-visit-succeeded-but-commands-fail",
+            "estack": "CypressError: Timed out retrying after 4000ms: The command was expected to run against origin `https://opensource-demo.orangehrmlive.com` but the application is at origin `https://www.google.com`.\n\nThis commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.\n\nUsing `cy.origin()` to wrap the commands run on `https://www.google.com` will likely fix this issue.\n\n`cy.origin('https://www.google.com', () => {`\n`  <commands targeting https://www.google.com go here>`\n`})`\n\nhttps://on.cypress.io/cy-visit-succeeded-but-commands-fail\n    at cypressErr (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:160032:18)\n    at Object.errByPath (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:160101:10)\n    at Object.commandCanCommunicateWithAUT (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:157146:98)\n    at <unknown> (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:142808:22)\n    at Object.subjectFn (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:154816:16)\n    at $Cy.verifyUpcomingAssertions (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:134220:31)\n    at onRetry (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:154808:15)\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11327:23)\n    at Promise.attempt.Promise.try (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:8601:29)\n    at whenStable (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:151463:65)\n    at <unknown> (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:150871:14)\n    at tryCatcher (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11327:23)\n    at Promise._settlePromiseFromHandler (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9262:31)\n    at Promise._settlePromise (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9319:18)\n    at Promise._settlePromise0 (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9364:10)\n    at Promise._settlePromises (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9444:18)\n    at Promise._fulfill (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:9388:18)\n    at <unknown> (https://opensource-demo.orangehrmlive.com/__cypress/runner/cypress_runner.js:11002:46)\nFrom Your Spec Code:\n    at Context.eval (webpack:///./cypress/e2e/test1.cy.js:5:7)",
+            "diff": null
+          },
+          "uuid": "9b0646f0-2cc2-4bcf-aae1-c8cd1bea05ac",
+          "parentUUID": "9435f0ce-2453-49b3-a70e-99574d5f83ae",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "9b0646f0-2cc2-4bcf-aae1-c8cd1bea05ac"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 14258,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

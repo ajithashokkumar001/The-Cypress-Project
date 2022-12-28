@@ -1,0 +1,121 @@
+{
+  "uid" : "5d2b489e3aad5d15",
+  "name" : "Read files using Fixture",
+  "fullName" : "Read files using Fixture",
+  "historyId" : "c82e689c4618c86542e7d20d3fcefcdf",
+  "time" : {
+    "start" : 1671296425968,
+    "stop" : 1671296433737,
+    "duration" : 7769
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1671296425972,
+        "stop" : 1671296433586,
+        "duration" : 7614
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+        "time" : {
+          "start" : 1671296426065,
+          "stop" : 1671296433582,
+          "duration" : 7517
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "fixture (\"example.json\")",
+      "time" : {
+        "start" : 1671296433591,
+        "stop" : 1671296433686,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log Using fixtures to represent data",
+      "time" : {
+        "start" : 1671296433691,
+        "stop" : 1671296433723,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "log hello@cypress.io",
+      "time" : {
+        "start" : 1671296433724,
+        "stop" : 1671296433734,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d2b489e3aad5d15.json",
+  "parameterValues" : [ ]
+}
