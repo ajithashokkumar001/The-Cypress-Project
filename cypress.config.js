@@ -9,7 +9,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
     
-        on('file:preprocessor', cucumber())
+       // on('file:preprocessor', cucumber())
 
       require('cypress-mochawesome-reporter/plugin')(on);
       allureWriter(on, config);

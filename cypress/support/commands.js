@@ -25,3 +25,8 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import 'cypress-file-upload';
+
+require('cypress-xpath');
+
+// cy.once('uncaught:exception') <> => false;
+// Cypress.on('uncaught:exception', () => false);

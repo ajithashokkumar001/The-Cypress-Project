@@ -8,17 +8,7 @@ describe('All login tests', function () {
     //     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     // })
 
-    it('Login Success using Fixture', function () {
-
-        cy.fixture('example.json').then((data) => {
     
-            loginpage.enterUsername(data.username)
-            loginpage.enterPassword(data.password)
-    
-            loginpage.clickLogin()
-    
-        })
-    })
 
     it('Login Success Case', function () {
 
@@ -35,6 +25,18 @@ describe('All login tests', function () {
 
         loginpage.clickLogin()
 
+        loginpage.errorMsg()
+    })
+    it('Login Success using Fixture', function () {
+
+        cy.fixture('example.json').then((data) => {
+    
+            loginpage.enterUsername(data.username)
+            loginpage.enterPassword(data.password)
+    
+            loginpage.clickLogin()
+    
+        })
     })
 
  })

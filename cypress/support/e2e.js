@@ -19,9 +19,9 @@ import 'cypress-mochawesome-reporter/register';
 import '@shelex/cypress-allure-plugin';
 
 
-// beforeEach(function () {
-//     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-// })
+beforeEach(function () {
+    cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+})
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
